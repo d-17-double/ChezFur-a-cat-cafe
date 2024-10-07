@@ -1,0 +1,127 @@
+  body {
+    background-color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #6600CC;
+    font-weight: bold;
+  }
+
+    main{
+
+      background-color: #ffcc00;
+      color: #000000;
+    }
+
+    
+      
+    header{background-image: url(../images/LogoSmall.png);
+      background-position: right top;
+      background-repeat: no-repeat;
+      background-size: contain;
+      min-height: 50px;}
+    
+      figure { border-radius: 50%;
+        text-align: center; 
+        margin: 20px; 
+    }
+
+    img {
+        width: 80px; 
+        height: 80px; 
+        max-width: 100%; 
+        height: auto; 
+    } 
+
+    
+    
+  
+  
+
+  
+   /* Configured mobile desktop viewing */
+
+
+  
+
+@media screen and (min-width: 750px) {
+    body {
+      background-color:#6600CC;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      color: #000000;
+      font-weight: bold;
+      
+    } 
+    
+  nav a {
+    background-color: #ffcc00;
+      color: #cc0000; 
+      text-decoration: none; 
+      padding: 2px ; 
+      margin: 2px; 
+  }
+  
+  nav a:hover {
+      background-color: #6600CC; 
+  }
+  
+  nav a:active {
+      background-color: #6600CC; 
+  }
+  
+  nav a:focus {
+      outline: 2px solid #ffcc00; 
+  }
+  
+  nav a:visited {
+      color: #cc0000; 
+  }
+  
+
+aside {
+  
+  background-color: #ffcc00;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 
+  'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #000000;
+  font-weight: bold;
+}
+header{background-image: url(../images/LogoLarge.png);
+      background-position: right top;
+      background-repeat: no-repeat;
+      min-height: 50px;}
+    
+      ul{
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 
+        'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: #000000;
+        font-weight: bold;
+      }
+    
+    img {
+      
+      width: 180px;
+      height: 180px; 
+  }
+  footer{ background-color: #ffcc00;}
+  
+  .NewMenu {
+    background-image: url("../images/paper.jpg"); 
+    background-color: #cccccc; 
+    
+  }
+  .cat-gallery {
+    border-radius: 5px;              /* Rounds the corners */
+    background-color: #6600CC;        /* Replace with your desired hex/rgb color */
+    width: 90%; 
+    height: 5;                      /* Sets the width to 90% */
+    margin: 0 auto;                   /* Centers the gallery */
+    padding: 5px;                    /* Adds padding for better spacing */
+}
+
+
+}
+
+ /* Changed color for desktop viewing by using media screen and set width to 750 */
+ /* Used the color patte of purple,yellow, black and red. I used these colors becasue of my favorite color which is purple, 
+ Yellow and black are the colors for the school I use to work at, and Red for Northeastern */
+/* Configured the colors and fonts for unordered list for the menu page */
+  
