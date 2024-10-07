@@ -109,12 +109,12 @@ header{background-image: url(../images/LogoLarge.png);
     
   }
   .cat-gallery {
-    border-radius: 5px;              /* Rounds the corners */
-    background-color: #6600CC;        /* Replace with your desired hex/rgb color */
+    border-radius: 5px;              
+    background-color: #6600CC;       
     width: 90%; 
-    height: 5;                      /* Sets the width to 90% */
-    margin: 0 auto;                   /* Centers the gallery */
-    padding: 5px;                    /* Adds padding for better spacing */
+    height: 5;                      
+    margin: 0 auto;                   
+    padding: 5px;                   
 }
 
 
