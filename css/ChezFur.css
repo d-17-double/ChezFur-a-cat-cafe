@@ -1,18 +1,13 @@
-  body {
-    background-color: #000000;
+  body { background-color: #000000;
     font-family: Arial, Helvetica, sans-serif;
     color: #6600CC;
     font-weight: bold;
   }
 
-    main{
-
-      background-color: #ffcc00;
+    main{ background-color: #ffcc00;
       color: #000000;
     }
-
-    
-      
+   
     header{background-image: url(../images/LogoSmall.png);
       background-position: right top;
       background-repeat: no-repeat;
@@ -31,11 +26,64 @@
         height: auto; 
     } 
 
-    
-    
-  
-  
+    .NewMenu {
+      background-image: url("../images/paper.jpg"); 
+      background-color: #cccccc; 
+      
+    }
 
+   
+    aside {
+      padding: 20px;
+
+      border-radius: 10px;  
+      
+     
+      background-color: #ffcc00;
+    }
+  
+    .menu.warning{
+      background-color: #ffcc00;
+    }
+
+    .U1 {
+      list-style: none;
+     
+       }
+
+       li {
+        display: inline;
+      }
+   
+    nav a {
+      background-color: #6600CC;
+        color: #ffcc00; 
+        text-decoration: none; 
+        padding: 2px ; 
+        margin: 2px; 
+    }
+    
+    nav a:hover {
+        background-color: #6600CC; 
+    }
+    
+    nav a:active {
+        background-color: #6600CC; 
+    }
+    
+    nav a:focus {
+        outline: 2px solid #ffcc00; 
+    }
+    
+    nav a:visited {
+        color: #cc0000; 
+    }
+    
+   
+    /* Added backgroud color to aside tag and also created a menu warning class 
+    to edit background color*/
+
+   
   
    /* Configured mobile desktop viewing */
 
@@ -43,7 +91,9 @@
   
 
 @media screen and (min-width: 750px) {
-    body {
+   
+  
+  body {
       background-color:#6600CC;
       font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
       color: #000000;
@@ -78,10 +128,10 @@
 
 aside {
   
-  background-color: #ffcc00;
+  background-color: #000000;
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 
   'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  color: #000000;
+  color: #ffcc00;
   font-weight: bold;
 }
 header{background-image: url(../images/LogoLarge.png);
@@ -108,17 +158,58 @@ header{background-image: url(../images/LogoLarge.png);
     background-color: #cccccc; 
     
   }
-  .cat-gallery {
-    border-radius: 5px;              
-    background-color: #6600CC;       
-    width: 90%; 
-    height: 5;                      
-    margin: 0 auto;                   
-    padding: 5px;                   
+ 
+
+.U1{
+  list-style-type: none;
+  margin: 0;
+  padding: 0
 }
+
+li a {
+  display: block;
+  width: fit-content;
+  background-color: #000000;}
+
+  * {
+    box-sizing: border-box;
+  }
+  
+  
+  .column {
+    float: left;
+    padding: 10px;
+    
+  }
+  
+  .left {
+    width: 25%;
+  }
+  
+  .right {
+    width: 75%;
+  }
+  
+ 
+  .row:after {
+    content: "";
+    
+    clear: both;
+  }
+
+ .background-color{
+  background-color: #ffcc00;
+ }
+
+
+
+
+
+
 
 
 }
+
 
  /* Changed color for desktop viewing by using media screen and set width to 750 */
  /* Used the color patte of purple,yellow, black and red. I used these colors becasue of my favorite color which is purple, 
