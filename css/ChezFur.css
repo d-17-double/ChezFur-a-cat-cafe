@@ -44,7 +44,8 @@
   
     .menu.warning{
       background-color: #ffcc00;
-    }
+    } /* Added backgroud color to aside tag and also created a menu warning class 
+    to edit background color*/
 
     .U1 {
       list-style: none;
@@ -54,6 +55,8 @@
        li {
         display: inline;
       }
+
+      /*Used the U1 class created to make edits only for mobile viewing*/
    
     nav a {
       background-color: #6600CC;
@@ -62,6 +65,7 @@
         padding: 2px ; 
         margin: 2px; 
     }
+
     
     nav a:hover {
         background-color: #6600CC; 
@@ -79,9 +83,8 @@
         color: #cc0000; 
     }
     
+   /* Edited the nav link to be respoisnle within mobile vewing */
    
-    /* Added backgroud color to aside tag and also created a menu warning class 
-    to edit background color*/
 
    
   
@@ -175,7 +178,8 @@ li a {
     box-sizing: border-box;
   }
   
-  
+  /* Changed the nav link to vertical within my menu page by creating class U1. Used blcok display to get desired results.*/ 
+  /* Also used "fit-content for width to ensure the  background colors fit the nav link correctly */
   .column {
     float: left;
     padding: 10px;
@@ -196,6 +200,8 @@ li a {
     
     clear: both;
   }
+
+  /* Created coluumns for the menu page and created classes to edit them within CSS */
 
  .background-color{
   background-color: #ffcc00;
