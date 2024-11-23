@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="../css/ChezFur.css">
+
+
+ <title>Chez Fur</title>
+ 
+</head>
+<body>
+    <header id="header1">
+        <h1>Chez Fur</h1>
+       <h2>By Suzy Schaffer </h2>
+          </header> 
+       
+          <nav> 
+          
+            <a href="../index.html">Home</a>
+            <a href="../pages/Menu.html">Menu</a>
+            <a href="../pages/YourHosts.html">YourHosts</a>
+            <a href="../pages/Contact.html">Contact</a>
+            <a href="../pages/Adoptions.html">Adoptions</a>
+     
+    </nav>
+        
+        <h1>Contact Page</h1>
+        <P> Let us know how to contact you with the answers you need</P>
+        <form action="https://webdevbasics.net/scripts/demo.php" method="post" class="Form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+        
+            <label for="email">E-Mail:</label>
+            <input type="email" id="email" name="email" required placeholder="name@email.com">
+        
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone" required
+                   placeholder="999-999-9999" 
+                   title="Format: 999-999-9999">
+        
+            <label for="contact-method">Preferred Contact:</label>
+            <select id="contact-method" name="contact-method">
+                <option value="email" selected>Email me</option>
+                <option value="phone-1pm-4pm">Phone me between 1pm – 4pm</option>
+                <option value="phone-6pm-9pm">Phone me between 6pm – 9pm</option>
+            </select>
+        
+            <label for="question">Question or Concern?</label>
+            <textarea id="question" name="question" rows="4" cols="10"></textarea>
+        
+            <input type="submit" value="Send">
+        </form>
+        <video width="auto" height="auto" controls loop class="CatDance">
+            <source src="../media/CatDance.mp4" type="video/mp4">
+            <source src="../media/CatDance.mp4" type="video/ogg">
+            
+          </video>
+            <!-- Added a video of cats dancing below form -->
+    <main>
+        
+       
+    </main> 
+    
+    <footer>
+
+        <p id="demo"></p>
+
+        <script src="../scripts/script.js"></script>
+
+
+Copyright 2024 Suzy Schaffer<br>
+            
+           
+          
+        </footer>
+
+    </body>
+
+</html>

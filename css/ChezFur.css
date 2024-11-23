@@ -1,0 +1,333 @@
+body { background-color: #000000;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #6600CC;
+  font-weight: bold;
+}
+
+  main{ background-color: #ffcc00;
+    color: #000000;
+  }
+ 
+  header{background-image: url(../images/LogoSmall.png);
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-height: 50px;}
+  
+    figure { border-radius: 50%;
+      text-align: center; 
+      margin: 20px; 
+  }
+
+  img {
+      width: 80px; 
+      height: 80px; 
+      max-width: 100%; 
+      height: auto; 
+  } 
+
+  .NewMenu {
+    background-image: url("../images/paper.jpg"); 
+    background-color: #cccccc; 
+    
+  }
+
+  .cat {
+    width: auto;
+    height: auto;
+  }
+
+  .responsive {
+    width: auto;
+    height: auto;
+  }
+
+ 
+  aside {
+    padding: 20px;
+
+    border-radius: 10px;  
+    
+   
+    background-color: #ffcc00;
+  }
+
+  .menu.warning{
+    background-color: #ffcc00;
+  } /* Added backgroud color to aside tag and also created a menu warning class 
+  to edit background color*/
+
+  .U1 {
+    list-style: none;
+   
+     }
+
+     li {
+      display: inline;
+    }
+
+    /*Used the U1 class created to make edits only for mobile viewing*/
+ 
+  nav a {
+    background-color: #6600CC;
+      color: #ffcc00; 
+      text-decoration: none; 
+      padding: 2px ; 
+      margin: 2px; 
+  }
+
+  
+  nav a:hover {
+      background-color: #6600CC; 
+  }
+  
+  nav a:active {
+      background-color: #6600CC; 
+  }
+  
+  nav a:focus {
+      outline: 2px solid #ffcc00; 
+  }
+  
+  nav a:visited {
+      color: #cc0000; 
+  }
+  
+  .Form {
+    background-color: #6600CC;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+   
+  .label {
+    display: block;
+    margin: 8px;
+    font-weight: bold;
+    color: #cc0000; }
+
+    /* Created CSS rules for mobile viewing of web form */
+
+ /* Edited the nav link to be respoisnle within mobile vewing */
+ 
+
+ 
+
+ /* Configured mobile desktop viewing */
+
+
+
+
+@media screen and (min-width: 750px) {
+ 
+
+body {
+    background-color:#6600CC;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #000000;
+    font-weight: bold;
+    
+  } 
+
+  nav {
+    padding-bottom: 10px;
+  }
+  
+nav a {
+  background-color: #ffcc00;
+    color: #cc0000; 
+    text-decoration: none; 
+    padding: 2px ; 
+    margin: 2px; 
+}
+
+nav a:hover {
+    background-color: #6600CC; 
+}
+
+nav a:active {
+    background-color: #6600CC; 
+}
+
+nav a:focus {
+    outline: 2px solid #ffcc00; 
+}
+
+nav a:visited {
+    color: #cc0000; 
+}
+
+
+aside {
+
+background-color: #000000;
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 
+'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+color: #ffcc00;
+font-weight: bold;
+}
+header{background-image: url(../images/LogoLarge.png);
+    background-position: right top;
+    background-repeat: no-repeat;
+    min-height: 50px;}
+  
+    ul{
+      font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 
+      'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      color: #000000;
+      font-weight: bold;
+    }
+  
+  img {
+    
+    width: 180px;
+    height: 180px; 
+}
+
+
+footer{ background-color: #ffcc00;}
+
+.NewMenu {
+  background-image: url("../images/paper.jpg"); 
+  background-color: #cccccc; 
+  
+}
+.MenuPage  {text-align: center;}
+
+
+  .cat {
+    width: auto;
+    height: auto;
+  }
+
+  .responsive {
+    width: auto;
+    height: auto;
+  }
+
+  .menu.warning{  font-weight: bold; 
+  color: #CC0000; 
+  display: block;
+  padding: 10px; 
+  margin: 20px 0; 
+  text-align: center;}
+.U1 a {
+  display: block;
+  content-visibility: fill;
+  
+}
+li a {
+display: block;
+width: fit-content;
+background-color: #000000;}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Changed the nav link to vertical within my menu page by creating class U1. Used blcok display to get desired results.*/ 
+/* Also used "fit-content for width to ensure the  background colors fit the nav link correctly */
+.column {
+  float: left;
+  padding: 10px;
+  
+}
+
+.left {
+  width: 25%;
+}
+
+.right {
+  width: 75%;
+}
+
+
+.row:after {
+  content: "";
+  
+  clear: both;
+}
+
+/* Created coluumns for the menu page and created classes to edit them within CSS */
+
+.background-color{
+background-color: #ffcc00;
+}
+
+
+.cat-gallery {  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; 
+  border-radius: 50%;
+  width: 200px}
+}
+
+.S-Links { display: flex;
+  justify-content: center;
+  flex-wrap: wrap}
+
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px; 
+    background-color: #6600CC; 
+    padding: 10px; 
+}
+
+
+.grid-container > div {
+    background-color: #ffcc00; 
+    text-align: center; 
+    padding: 20px; 
+    font-size: 30px; /
+}
+
+/* Customized the grid-containter class by creating 2 rows and 3 columns 
+while also ensuring the photos are centered*/
+
+.wide-image {
+    grid-area: 2/2/3 span 2; 
+}
+
+.long-image {
+    grid-column: span 3; 
+}
+
+
+.Form {
+  background-color: #ffcc00;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+ 
+.label {
+  display: block;
+  margin: 8px;
+  font-weight: bold;
+  color: #cc0000; }
+
+  .CatDance{ margin-top: 20px;
+  margin-bottom: auto;
+justify-content: center; }
+
+/* Created CSS rules for desktop viewing of web form */
+
+/* Ensure that the wide and long photo were in the correct area within the grid  */
+
+
+
+
+/* Changed color for desktop viewing by using media screen and set width to 750 */
+/* Used the color patte of purple,yellow, black and red. I used these colors becasue of my favorite color which is purple, 
+Yellow and black are the colors for the school I use to work at, and Red for Northeastern */
+/* Configured the colors and fonts for unordered list for the menu page */
